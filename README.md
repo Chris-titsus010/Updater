@@ -17,3 +17,4 @@ Updates, lists available upgrades before prompting for it, and finally, autoremo
 
 ### Improvements:
  - If upgradable list empty, could early exit. Same goes for autoremove.
+ - Option to do only security updates
