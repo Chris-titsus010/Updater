@@ -28,3 +28,6 @@ do
 			echo -en "\n" ;;
 	esac
 done
+
+# Security updates only
+# apt-get -s dist-upgrade | grep "^Inst" | grep -i securi | awk -F " " {'print $2'} | sudo xargs apt-get install
